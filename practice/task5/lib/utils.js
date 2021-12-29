@@ -15,6 +15,7 @@ function handleError(error) {
 }
 
 module.exports = {
+  swcMinify: true,
   getInfo: function(park) {
     return getParkInfo(park).catch(handleError);
   },
